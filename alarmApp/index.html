@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Darker+Grotesque:wght@700&family=Inter:wght@100;800&family=Major+Mono+Display&family=Modak&family=MuseoModerno&family=Orbitron&family=Poiret+One&family=Poppins:wght@100&family=Roboto:wght@100&family=Space+Grotesk:wght@300&family=Syne&family=Thasadith&family=Viaoda+Libre&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div>
+      <small id="dayOrNight"></small>
+    </div>
+    <div>
+      <small id="amPM"></small>
+    </div>
+    <h1 id="time">
+      <span id="hrs">00</span>:
+      <span id="mins">00</span>:
+      <small id="secs">00</small>
+      <div>
+        <small id="weekDay"></small>
+        <small id="date">00</small>
+      </div>
+    </h1>
+  </div>
+  <div id="alarmWrapper">
+    <select id="hrMenu">
+    </select>:
+    <select id="minMenu">
+    </select>:
+    <select id="secMenu">
+    </select>
+    <button id="alarmBtn" type="button" name="button"><i class="fa fa-clock-o" aria-hidden="true"></i></button>
+  </div>
+  <div>
+    <ul>
+      <li id="alarmItem"></li>
+    </ul>
+  </div>
+  <script src="js/app.js" charset="utf-8"></script>
+  <audio id="audio" src="">
+
+  </audio>
+</body>
+
+</html>
